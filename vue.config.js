@@ -1,3 +1,4 @@
-module.exports = {
-  publicPath : '/Task-Welbex'
-}
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true
+})
